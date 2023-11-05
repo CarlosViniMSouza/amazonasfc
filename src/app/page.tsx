@@ -8,13 +8,12 @@ export default function Home() {
             <header>
                 <Navbar />
             </header>
-            <body>
-                <Gallery/>
 
-                <footer className="py-4 text-center text-lg bg-yellow-500">
-                    <Footer />
-                </footer>
-            </body>
+            <Gallery/>
+
+            <footer className="py-4 text-center text-lg bg-yellow-500">
+                <Footer />
+            </footer>
         </>
     )
 }

@@ -1,5 +1,5 @@
 git add -A
-git commit -m "fix: NavBar working"
+git commit -m "fix: NavBar width | alt: Footer text"
 git push -u origin main
 git status
 
