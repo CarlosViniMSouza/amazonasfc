@@ -5,7 +5,7 @@ import Script from "next/script";
 function Navbar() {
     return (
         <>
-            <div className="bg-yellow-500">
+            <div className="container bg-yellow-500">
                 <nav className="flex items-center justify-between flex-wrap p-6">
                     <div className="flex items-center flex-shrink-0 text-white mr-6">
                         <Image
@@ -15,8 +15,12 @@ function Navbar() {
                             alt="Icon Team"
                         ></Image>
                     </div>
-                    <div className="block lg:hidden">
-                        <button id="nav-toggle" className="flex items-center px-3 py-2 border rounded text-white hover:text-white hover:border-white">
+                    <div className="block lg:hidden {'block': open, 'hidden': !open}">
+                        <button
+                            id="nav-toggle"
+                            className="flex items-center px-3 py-2 border rounded text-white hover:text-white hover:border-white md:hidden"
+                            x-data="mobileMenu()"
+                        >
                             <svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                 <title> Menu </title>
                                 <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
@@ -43,7 +47,7 @@ function Navbar() {
             </div>
 
             <Script
-                strategy="worker"
+                strategy="lazyOnload"
                 src="/scripts/hamburger-menu.js"
             />
         </>
