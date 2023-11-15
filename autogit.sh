@@ -1,5 +1,5 @@
 git add -A
-git commit -m "add: metadata in page.tsx"
+git commit -m "alt: colors and sizers"
 git push -u origin main
 git status
 
