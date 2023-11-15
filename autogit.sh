@@ -1,5 +1,5 @@
 git add -A
-git commit -m "alt: NavBar, Footer, SubFooter"
+git commit -m "add: metadata in page.tsx"
 git push -u origin main
 git status
 
