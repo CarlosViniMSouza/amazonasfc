@@ -1,5 +1,5 @@
 git add -A
-git commit -m "fix: NavBar width | alt: Footer text"
+git commit -m "alt: Footer -> SubFooter | done: Footer outline"
 git push -u origin main
 git status
 

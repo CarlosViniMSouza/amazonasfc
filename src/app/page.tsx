@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import SubFooter from "@/components/SubFooter";
 import Gallery from "@/components/Gallery";
+import Footer from "@/components/Footer";
 
 export default function Home() {
     return (
@@ -11,8 +12,9 @@ export default function Home() {
 
             <Gallery/>
 
-            <footer className="py-4 text-center text-lg bg-yellow-500">
-                <Footer />
+            <Footer/>
+            <footer>
+                <SubFooter />
             </footer>
         </>
     )

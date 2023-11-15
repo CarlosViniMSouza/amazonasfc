@@ -29,16 +29,13 @@ function Navbar() {
                     <div id="nav-content" className="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0">
                         <ul className="list-reset lg:flex justify-end flex-1 items-center">
                             <li className="mr-3">
-                                <Link className="inline-block text-white no-underline hover:text-black py-2 px-4" href="#"> Casa </Link>
+                                <Link className="inline-block text-white no-underline py-2 px-4" href="#"> Casa </Link>
                             </li>
                             <li className="mr-3">
-                                <Link className="inline-block text-white no-underline hover:text-black py-2 px-4" href="#"> Sobre </Link>
+                                <Link className="inline-block text-white no-underline py-2 px-4" href="#"> Sobre </Link>
                             </li>
                             <li className="mr-3">
-                                <Link className="inline-block text-white no-underline hover:text-black py-2 px-4" href="#"> Conquistas </Link>
-                            </li>
-                            <li className="mr-3">
-                                <Link className="inline-block text-white no-underline hover:text-black py-2 px-4" href="#"> Contato </Link>
+                                <Link className="inline-block text-white no-underline py-2 px-4" href="#"> Contato </Link>
                             </li>
                         </ul>
                     </div>
