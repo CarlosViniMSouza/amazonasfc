@@ -1,5 +1,5 @@
 git add -A
-git commit -m "alt: Footer | add: Store"
+git commit -m "fix: images path to Gallery"
 git push -u origin main
 git status
 

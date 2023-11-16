@@ -12,7 +12,7 @@ function Gallery() {
             <div className="flex flex-col bg-gray-700 lg:flex-row px-4 py-2 rounded">
                 <div className="flex-grow py-4 justify-start">
                     <Image
-                        src="/images/img04.jpg"
+                        src="/gallery/img04.jpg"
                         width={1000}
                         height={1000}
                         alt="Team"
@@ -20,7 +20,7 @@ function Gallery() {
                     ></Image>
 
                     <Image
-                        src="/images/img03.jpg"
+                        src="/gallery/img03.jpg"
                         width={1000}
                         height={1000}
                         alt="Team"
@@ -28,7 +28,7 @@ function Gallery() {
                     ></Image>
 
                     <Image
-                        src="/images/img02.jpg"
+                        src="/gallery/img02.jpg"
                         width={1000}
                         height={1000}
                         alt="Team"
@@ -36,7 +36,7 @@ function Gallery() {
                     ></Image>
 
                     <Image
-                        src="/images/img01.jpg"
+                        src="/gallery/img01.jpg"
                         width={1000}
                         height={1000}
                         alt="Team"
