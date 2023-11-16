@@ -1,5 +1,5 @@
 git add -A
-git commit -m "alt: colors and sizers"
+git commit -m "alt: Footer | add: Store"
 git push -u origin main
 git status
 

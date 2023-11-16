@@ -4,13 +4,13 @@ import Link from "next/link";
 function Footer() {
     return (
         <>
-            <div className="border-solid border-white border-2 mx-auto w-[50%] rounded bg-white mt-3 mb-3">
+            <div className="border-solid border-black border-2 mx-auto w-[50%] rounded bg-white mt-3 mb-3">
                 <p className="py-2 text-center text-lg text-black ">
                     <strong> Saiba Mais </strong>
                 </p>
             </div>
 
-            <div className="flex flex-col lg:flex-row bg-yellow-500 px-4 py-2 rounded">
+            <div className="flex flex-col lg:flex-row w-full bg-yellow-500 px-4 py-16 rounded">
                 <div className="flex-grow py-6 px-2 justify-start">
                     <Image
                         src="/icons/icon.png"
@@ -27,6 +27,7 @@ function Footer() {
                     <p><Link href="#">Fundação</Link></p>
                     <p><Link href="#">Conquistas</Link></p>
                     <p><Link href="#">Fale Conosco</Link></p>
+                    <p><Link href="#">Perguntas Frequentes - FAQ</Link></p>
                 </div>
 
                 <div className="flex-grow py-4 justify-start">
@@ -35,7 +36,9 @@ function Footer() {
                     <p><Link href="#">Campeonato Amazonense Série A</Link></p>
                     <p><Link href="#">Campeonato Amazonense Sub-10</Link></p>
                     <p><Link href="#">Campeonato Amazonense Sub-14</Link></p>
-                    <p><Link href="#">Campeonato Brasileiro Série B</Link></p>
+                    <p><Link href="#">Campeonato Amazonense Sub-16</Link></p>
+                    <p><Link href="#">Campeonato Brasileiro Série C 2023</Link></p>
+                    <p><Link href="#">Campeonato Brasileiro Série B 2024</Link></p>
                 </div>
 
                 <div className="flex-grow py-4 justify-start">
@@ -44,6 +47,10 @@ function Footer() {
                     <p><Link href="#">TV Onça</Link></p>
                     <p><Link href="#">Loja</Link></p>
                     <p><Link href="#">Galeria</Link></p>
+                    <p><Link href="#">Diretoria</Link></p>
+                    <p><Link href="#">Comitê Técnico</Link></p>
+                    <p><Link href="#">Nossas Feras</Link></p>
+                    <p><Link href="#">Base da Onça</Link></p>
                 </div>
 
                 <div className="flex-grow py-4 justify-start">
@@ -80,6 +87,29 @@ function Footer() {
                             </svg>
                             <p className="ml-2">YouTube</p>
                         </Link>
+                </div>
+            </div>
+
+            <div className="flex bg-yellow-500">
+                <div className="flex flex-grow px-4 py-4 text-lg justify-center items-center text-center">
+                    <p className="mr-2"> Powered by </p>
+                    <div className="mr-2">
+                        <svg fill="none" width="25" height="25" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.5 4.5L4.90534 4.20725C4.77836 4.03144 4.55252 3.95753 4.34617 4.02425C4.13981 4.09098 4 4.28313 4 4.5H4.5ZM7.5 14C3.91015 14 1 11.0899 1 7.5H0C0 11.6421 3.35786 15 7.5 15V14ZM14 7.5C14 11.0899 11.0899 14 7.5 14V15C11.6421 15 15 11.6421 15 7.5H14ZM7.5 1C11.0899 1 14 3.91015 14 7.5H15C15 3.35786 11.6421 0 7.5 0V1ZM7.5 0C3.35786 0 0 3.35786 0 7.5H1C1 3.91015 3.91015 1 7.5 1V0ZM5 12V4.5H4V12H5ZM4.09466 4.79275L10.5947 13.7927L11.4053 13.2073L4.90534 4.20725L4.09466 4.79275ZM10 4V10H11V4H10Z" fill="white"/>
+                        </svg>
+                    </div>
+                    <p className="mr-2"> + </p>
+                    <div className="mr-2">
+                        <svg fill="none" width="25" height="25" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+                            <path clip-rule="evenodd" d="M7.5 3C5.63333 3 4.46667 4 4 5.99999C4.7 4.99999 5.51667 4.625 6.45 4.87499C6.98252 5.01763 7.36314 5.43155 7.78443 5.88974C8.47074 6.63613 9.26506 7.49999 11 7.49999C12.8667 7.49999 14.0333 6.49999 14.5 4.5C13.8 5.49999 12.9833 5.87499 12.05 5.62499C11.5175 5.48235 11.1369 5.06844 10.7156 4.61025C10.0293 3.86386 9.23494 3 7.5 3ZM4 7.49999C2.13333 7.49999 0.966667 8.49998 0.5 10.5C1.2 9.49998 2.01667 9.12498 2.95 9.37498C3.48252 9.51762 3.86314 9.93154 4.28443 10.3897C4.97074 11.1361 5.76506 12 7.5 12C9.36667 12 10.5333 11 11 8.99998C10.3 9.99998 9.48333 10.375 8.55 10.125C8.01748 9.98234 7.63686 9.56843 7.21557 9.11023C6.52926 8.36385 5.73494 7.49999 4 7.49999Z" fill-rule="evenodd" stroke="white" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <p className="mr-2"> + </p>
+                    <div className="mr-2">
+                        <svg fill="none" width="25" height="25" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+                            <path clip-rule="evenodd" d="M7.49998 1L6.92321 2.00307L1.17498 12L0.599976 13H1.7535H13.2464H14.4L13.825 12L8.07674 2.00307L7.49998 1ZM7.49998 3.00613L2.3285 12H12.6714L7.49998 3.00613Z" fill="white" fill-rule="evenodd"/>
+                        </svg>
+                    </div>
                 </div>
             </div>
         </>

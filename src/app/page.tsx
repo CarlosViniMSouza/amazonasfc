@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import News from "@/components/News";
 import Head from "next/head";
 import Sponsors from "@/components/Sponsors";
+import Store from "@/components/Store";
 
 export default function Home() {
     return (
@@ -31,11 +32,11 @@ export default function Home() {
 
             <News />
             <Gallery />
+            <Store />
             <Sponsors />
 
             <footer>
                 <Footer/>
-                <SubFooter />
             </footer>
         </>
     )
