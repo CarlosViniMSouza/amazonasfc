@@ -1,5 +1,4 @@
 import Navbar from "@/components/Navbar";
-import SubFooter from "@/components/SubFooter";
 import Gallery from "@/components/Gallery";
 import Footer from "@/components/Footer";
 import News from "@/components/News";

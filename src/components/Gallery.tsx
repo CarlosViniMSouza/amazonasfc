@@ -9,14 +9,14 @@ function Gallery() {
                 </p>
             </div>
 
-            <div className="flex flex-col bg-gray-700 lg:flex-row px-4 py-2 rounded">
-                <div className="flex-grow py-4 justify-start">
+            <div className="flex flex-col flex-grow mr-2 mb-2 bg-gray-700 px-4 py-2 rounded">
+                <div className="grid grid-cols-2 gap-2 mb-2">
                     <Image
                         src="/gallery/img04.jpg"
                         width={1000}
                         height={1000}
                         alt="Team"
-                        className="w-full mb-2 h-auto object-cover rounded fill-current"
+                        className="w-full h-auto object-cover rounded fill-current"
                     ></Image>
 
                     <Image
@@ -24,19 +24,39 @@ function Gallery() {
                         width={1000}
                         height={1000}
                         alt="Team"
-                        className="w-full mb-2 h-auto object-cover rounded fill-current"
+                        className="w-full h-auto object-cover rounded fill-current"
                     ></Image>
+                </div>
 
+                <div className="grid grid-cols-2 gap-2 mb-2">
                     <Image
                         src="/gallery/img02.jpg"
                         width={1000}
                         height={1000}
                         alt="Team"
-                        className="w-full mb-2 h-auto object-cover rounded fill-current"
+                        className="w-full h-auto object-cover rounded fill-current"
                     ></Image>
 
                     <Image
                         src="/gallery/img01.jpg"
+                        width={1000}
+                        height={1000}
+                        alt="Team"
+                        className="w-full h-auto object-cover rounded fill-current"
+                    ></Image>
+                </div>
+
+                <div className="grid grid-cols-2 gap-2">
+                    <Image
+                        src="/gallery/img05.jpg"
+                        width={1000}
+                        height={1000}
+                        alt="Team"
+                        className="w-full h-auto object-cover rounded fill-current"
+                    ></Image>
+
+                    <Image
+                        src="/gallery/img06.jpg"
                         width={1000}
                         height={1000}
                         alt="Team"

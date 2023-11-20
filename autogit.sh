@@ -1,5 +1,5 @@
 git add -A
-git commit -m "fix: images path to Gallery"
+git commit -m "alt: Sponsors & Gallery and Store layouts"
 git push -u origin main
 git status
 

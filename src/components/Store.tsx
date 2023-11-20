@@ -9,24 +9,47 @@ function Store() {
                 </p>
             </div>
 
-            <div className="flex flex-col lg:flex-row bg-gray-700 px-4 py-2 rounded">
-                <div className="flex flex-grow py-4 mr-2 mb-2 border-solid border-white border-2 rounded justify-center items-center">
-                    <Image
-                        src="/store/shirt01.png"
-                        width={512}
-                        height={512}
-                        alt="Shirt"
-                        className="w-[50%] h-auto object-cover rounded fill-current"
-                    ></Image>
+            <div className="bg-gray-700 px-4 py-2 rounded grid grid-cols-2 gap-2">
+                <div className="grid grid-cols-2 gap-2">
+                    <div className="flex flex-grow py-4 mr-2 mb-2 border-solid border-white border-2 rounded justify-center">
+                        <Image
+                            src="/store/shirt01.png"
+                            width={1000}
+                            height={1000}
+                            alt="Shirt"
+                            className="w-full h-auto object-cover rounded fill-current"
+                            ></Image>
+                    </div>
+                    <div className="flex flex-grow py-4 mr-2 mb-2 border-solid border-white border-2 rounded justify-center">
+                        <Image
+                            src="/store/shirt02.png"
+                            width={1000}
+                            height={1000}
+                            alt="Shirt"
+                            className="w-full h-auto object-cover rounded fill-current"
+                            ></Image>
+                    </div>
                 </div>
-                <div className="flex flex-grow py-4 mr-2 mb-2 border-solid border-white border-2 rounded justify-center items-center">
-                    <Image
-                        src="/store/shirt02.png"
-                        width={512}
-                        height={512}
-                        alt="Shirt"
-                        className="w-[50%] h-auto object-cover rounded fill-current"
-                    ></Image>
+
+                <div className="grid grid-cols-2 gap-2">
+                    <div className="flex flex-grow py-4 mr-2 mb-2 border-solid border-white border-2 rounded justify-center">
+                        <Image
+                            src="/store/shirt03.png"
+                            width={1000}
+                            height={1000}
+                            alt="Shirt"
+                            className="w-full h-auto object-cover rounded fill-current"
+                            ></Image>
+                    </div>
+                    <div className="flex flex-grow py-4 mr-2 mb-2 border-solid border-white border-2 rounded justify-center">
+                        <Image
+                            src="/store/shirt04.png"
+                            width={1000}
+                            height={1000}
+                            alt="Shirt"
+                            className="w-full h-auto object-cover rounded fill-current"
+                            ></Image>
+                    </div>
                 </div>
             </div>
         </>
