@@ -1,8 +1,12 @@
+"use client";
+
 import Image from "next/image";
-import Link from "next/link";
 import Script from "next/script";
+import { useRouter } from 'next/navigation';
 
 function Navbar() {
+    const router = useRouter();
+
     return (
         <>
             <div className="bg-yellow-500">
@@ -26,25 +30,25 @@ function Navbar() {
                             </svg>
                         </button>
                     </div>
-                    <div id="nav-content" className="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0">
+                    <div id="nav-content" className="w-full flex-grow lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0">
                         <ul className="list-reset lg:flex flex-1 justify-between items-center">
                             <li className="mr-3">
-                                <Link className="inline-block text-white underline py-2 px-4" href="#"> Sobre Nós </Link>
+                                <button type="button" className="inline-block text-white underline py-2 px-4" onClick={() => router.push('/pages/aboutUs')}> Sobre Nós </button>
                             </li>
                             <li className="mr-3">
-                                <Link className="inline-block text-white underline py-2 px-4" href="#"> Conquistas </Link>
+                                <button type="button" className="inline-block text-white underline py-2 px-4" onClick={() => router.push('/pages/')}> Conquistas </button>
                             </li>
                             <li className="mr-3">
-                                <Link className="inline-block text-white underline py-2 px-4" href="#"> Agenda </Link>
+                                <button type="button" className="inline-block text-white underline py-2 px-4" onClick={() => router.push('/pages/')}> Agenda </button>
                             </li>
                             <li className="mr-3">
-                                <Link className="inline-block text-white underline py-2 px-4" href="#"> Loja Auri-Negra </Link>
+                                <button type="button" className="inline-block text-white underline py-2 px-4" onClick={() => router.push('/pages/')}> Loja Auri-Negra </button>
                             </li>
                             <li className="mr-3">
-                                <Link className="inline-block text-white underline py-2 px-4" href="#"> Notícias </Link>
+                                <button type="button" className="inline-block text-white underline py-2 px-4" onClick={() => router.push('/pages/')}> Notícias </button>
                             </li>
                             <li className="mr-3">
-                                <Link className="inline-block text-white underline py-2 px-4" href="#"> Sócio-Torcedor </Link>
+                                <button type="button" className="inline-block text-white underline py-2 px-4" onClick={() => router.push('/pages/')}> Sócio-Torcedor </button>
                             </li>
                         </ul>
                     </div>

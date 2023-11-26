@@ -3,9 +3,9 @@ import Image from "next/image";
 function Sponsors() {
     return (
         <>
-            <div className="border-solid border-black border-2 mx-auto w-full rounded bg-white mt-3 mb-3">
+            <div className="border-solid border-black border-2 mx-auto w-[50%] rounded bg-white mt-3 mb-3">
                 <p className="py-2 text-center text-lg text-black">
-                    <strong> Nossos Patrocinadores </strong>
+                    <strong> Alguns Patrocinadores </strong>
                 </p>
             </div>
 

@@ -1,5 +1,5 @@
 git add -A
-git commit -m "alt: Sponsors & Gallery and Store layouts"
+git commit -m "done: News component"
 git push -u origin main
 git status
 

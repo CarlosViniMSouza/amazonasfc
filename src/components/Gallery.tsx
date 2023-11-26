@@ -13,16 +13,16 @@ function Gallery() {
                 <div className="grid grid-cols-2 gap-2 mb-2">
                     <Image
                         src="/gallery/img04.jpg"
-                        width={1000}
-                        height={1000}
+                        width={500}
+                        height={500}
                         alt="Team"
                         className="w-full h-auto object-cover rounded fill-current"
                     ></Image>
 
                     <Image
                         src="/gallery/img03.jpg"
-                        width={1000}
-                        height={1000}
+                        width={500}
+                        height={500}
                         alt="Team"
                         className="w-full h-auto object-cover rounded fill-current"
                     ></Image>
@@ -31,16 +31,16 @@ function Gallery() {
                 <div className="grid grid-cols-2 gap-2 mb-2">
                     <Image
                         src="/gallery/img02.jpg"
-                        width={1000}
-                        height={1000}
+                        width={500}
+                        height={500}
                         alt="Team"
                         className="w-full h-auto object-cover rounded fill-current"
                     ></Image>
 
                     <Image
                         src="/gallery/img01.jpg"
-                        width={1000}
-                        height={1000}
+                        width={500}
+                        height={500}
                         alt="Team"
                         className="w-full h-auto object-cover rounded fill-current"
                     ></Image>
@@ -49,16 +49,16 @@ function Gallery() {
                 <div className="grid grid-cols-2 gap-2">
                     <Image
                         src="/gallery/img05.jpg"
-                        width={1000}
-                        height={1000}
+                        width={500}
+                        height={500}
                         alt="Team"
                         className="w-full h-auto object-cover rounded fill-current"
                     ></Image>
 
                     <Image
                         src="/gallery/img06.jpg"
-                        width={1000}
-                        height={1000}
+                        width={500}
+                        height={500}
                         alt="Team"
                         className="w-full h-auto object-cover rounded fill-current"
                     ></Image>
