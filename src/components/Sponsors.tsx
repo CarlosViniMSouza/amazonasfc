@@ -16,7 +16,7 @@ function Sponsors() {
                         width={1000}
                         height={1000}
                         alt="Team"
-                        className="w-full h-auto object-cover rounded fill-current"
+                        className="w-[full] h-auto object-cover rounded fill-current"
                     ></Image>
 
                     <Image
@@ -24,7 +24,7 @@ function Sponsors() {
                         width={1000}
                         height={1000}
                         alt="Team"
-                        className="w-full h-auto object-cover rounded fill-current"
+                        className="w-full h-[85%] object-cover rounded fill-current"
                     ></Image>
 
                     <Image
@@ -50,7 +50,7 @@ function Sponsors() {
                         width={1000}
                         height={1000}
                         alt="Team"
-                        className="w-full h-auto object-cover rounded fill-current mt-4 mb-4"
+                        className="w-full h-auto object-cover rounded fill-current"
                     ></Image>
 
                     <Image

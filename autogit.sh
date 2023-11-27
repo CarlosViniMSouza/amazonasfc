@@ -1,5 +1,5 @@
 git add -A
-git commit -m "add: files from Pages Folder"
+git commit -m "err: Navbar toggle broked"
 git push -u origin main
 git status
 

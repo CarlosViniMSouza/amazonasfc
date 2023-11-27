@@ -1,8 +1,9 @@
+import Head from "next/head";
+
 import Navbar from "@/components/Navbar";
 import Gallery from "@/components/Gallery";
 import Footer from "@/components/Footer";
 import Updates from "@/components/Updates";
-import Head from "next/head";
 import Sponsors from "@/components/Sponsors";
 import Products from "@/components/Products";
 

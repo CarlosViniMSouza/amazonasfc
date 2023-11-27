@@ -10,7 +10,7 @@ function Updates() {
                 </p>
             </div>
 
-            <div className="flex-grow bg-gray-500 mx-auto rounded py-2">
+            <div className="flex-grow bg-gray-700 mx-auto rounded py-2">
                 <div className="flex flex-col lg:flex-row items-center rounded border-2 border-solid border-white p-3 m-4">
                     <Image
                         src="/gallery/img03.jpg"
