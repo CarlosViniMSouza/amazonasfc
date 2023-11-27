@@ -1,16 +1,15 @@
-import Navbar from "@/components/Navbar";
-import Gallery from "@/components/Gallery";
-import Footer from "@/components/Footer";
-import Updates from "@/components/Updates";
-import Head from "next/head";
-import Sponsors from "@/components/Sponsors";
-import Products from "@/components/Products";
+import '../app/globals.css';
 
-export default function Home() {
+import Navbar from "@/components/Navbar";
+import Head from "next/head";
+import Footer from "@/components/Footer";
+import Updates from '@/components/Updates';
+
+function News() {
     return (
         <>
             <Head>
-                <title>Amazonas FC - A maior Torcida da Região Norte</title>
+                <title>Amazonas FC - Notícias</title>
 
                 <meta name="theme-color" content="#fff" />
                 <meta property="og:url" content="https://amazonasfc.vercel.app/" />
@@ -29,10 +28,7 @@ export default function Home() {
                 <Navbar />
             </header>
 
-            <Updates />
-            <Gallery />
-            <Products />
-            <Sponsors />
+            <Updates/>
 
             <footer>
                 <Footer/>
@@ -40,3 +36,5 @@ export default function Home() {
         </>
     )
 }
+
+export default News;

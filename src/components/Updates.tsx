@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-function News() {
+function Updates() {
     return (
         <>
             <div className="border-solid border-black border-2 mx-auto w-[50%] rounded bg-white mt-3 mb-3">
@@ -16,7 +16,7 @@ function News() {
                         src="/gallery/img03.jpg"
                         width={1000}
                         height={1000}
-                        alt="news"
+                        alt="Updates"
                         className="w-full lg:w-[25%] h-auto object-cover rounded"
                     ></Image>
 
@@ -39,7 +39,7 @@ function News() {
                         src="/gallery/img05.jpg"
                         width={1000}
                         height={1000}
-                        alt="news"
+                        alt="Updates"
                         className="w-full lg:w-[25%] h-auto object-cover rounded"
                     ></Image>
 
@@ -62,7 +62,7 @@ function News() {
                         src="/gallery/img06.jpg"
                         width={1000}
                         height={1000}
-                        alt="news"
+                        alt="Updates"
                         className="w-full lg:w-[25%] h-auto object-cover rounded"
                     ></Image>
 
@@ -84,4 +84,4 @@ function News() {
     )
 }
 
-export default News;
+export default Updates;

@@ -1,5 +1,5 @@
 git add -A
-git commit -m "done: News component"
+git commit -m "add: files from Pages Folder"
 git push -u origin main
 git status
 

@@ -10,14 +10,14 @@ function Footer() {
                 </p>
             </div>
 
-            <div className="flex flex-col lg:flex-row w-full bg-yellow-500 px-4 py-16 rounded">
+            <div className="flex flex-col lg:flex-row w-full bg-yellow-500 px-4 py-16">
                 <div className="flex-grow py-6 px-2 justify-start">
-                    <Image
+                    <Link href="https://amazonasfc.vercel.app/"><Image
                         src="/icons/icon.png"
                         width={50}
                         height={50}
                         alt="Icon Team"
-                    ></Image>
+                    ></Image></Link>
                 </div>
 
                 <div className="flex-grow py-4 justify-start">
