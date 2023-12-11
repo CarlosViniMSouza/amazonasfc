@@ -9,7 +9,7 @@ function Navbar() {
             <div className="bg-yellow-500">
                 <nav className="flex items-center justify-between flex-wrap p-4">
                     <div className="flex items-center flex-shrink-0 text-white mr-6">
-                        <Link href="https://amazonasfc.vercel.app/"><Image
+                        <Link href="/"><Image
                             src="/icons/icon.png"
                             width={50}
                             height={50}
@@ -27,7 +27,7 @@ function Navbar() {
                             </svg>
                         </button>
                     </div>
-                    <div className="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden" id="menu" x-cloak x-show="!isSmallScreen">
+                    <div className="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden" id="menu">
                         <ul className="list-reset lg:flex flex-1 justify-between items-center">
                             <li className="mr-3">
                                 <Link href="/AboutUs/" className="inline-block text-white underline py-2 px-4"> Sobre Nós </Link>

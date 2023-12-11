@@ -4,6 +4,10 @@ import Navbar from "@/components/Navbar";
 import Head from "next/head";
 import Footer from "@/components/Footer";
 import Await from '@/components/Await';
+import Section2018 from './AboutUs/Section2018';
+import Section2022 from './AboutUs/Section2022';
+import Section2023 from './AboutUs/Section2023';
+import Section2024 from './AboutUs/Section2024';
 
 function AboutUs() {
     return (
@@ -28,13 +32,10 @@ function AboutUs() {
                 <Navbar />
             </header>
 
-            <div className="border-solid border-black border-2 mx-auto w-[50%] rounded bg-white mt-3 mb-3">
-                <p className="py-2 text-center text-lg text-black ">
-                    <strong>Sobre Nós</strong>
-                </p>
-            </div>
-
-            <Await/>
+            <Section2018/>
+            <Section2022/>
+            <Section2023/>
+            <Section2024/>
 
             <footer>
                 <Footer/>

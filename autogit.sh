@@ -1,5 +1,5 @@
 git add -A
-git commit -m "err: Navbar toggle broked"
+git commit -m "alt: AboutUs updated"
 git push -u origin main
 git status
 
