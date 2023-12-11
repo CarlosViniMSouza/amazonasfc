@@ -1,5 +1,5 @@
 git add -A
-git commit -m "alt: Await | names of Sections from AboutUs"
+git commit -m "done: Builded | quotation marks replaced by &apos"
 git push -u origin main
 git status
 

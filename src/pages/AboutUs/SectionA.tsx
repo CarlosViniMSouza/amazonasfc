@@ -22,7 +22,7 @@ function SectionInit() {
                     <div className="p-2 m-2">
                         <h2 className="text-3xl mb-4"> <strong> Surge o Amazonas FC em meados de 2018. </strong> </h2>
                         <p className="text-2xl mb-4"> Fundado por ex-diretores de clubes tradicionais do Amazonas, o Amazonas FC surge para renovar o futebol local. </p>
-                        <p className="text-2xl mb-4"> O que talvez ninguém esperava, era a proporção que a tal "renovação no futebol local" iria ocasionar. </p>
+                        <p className="text-2xl mb-4"> O que talvez ninguém esperava, era a proporção que a tal &apos;renovação no futebol local&apos; iria ocasionar. </p>
                         <p className="text-2xl"> Com inúmeros adversários e adversidades á espera, o AM.F.C. começa a sua história de conquistas e superação! </p>
                     </div>
                 </div>
