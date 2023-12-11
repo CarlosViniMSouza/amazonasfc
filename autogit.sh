@@ -1,5 +1,5 @@
 git add -A
-git commit -m "alt: AboutUs updated"
+git commit -m "alt: Await | names of Sections from AboutUs"
 git push -u origin main
 git status
 

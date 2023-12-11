@@ -4,10 +4,10 @@ import Navbar from "@/components/Navbar";
 import Head from "next/head";
 import Footer from "@/components/Footer";
 import Await from '@/components/Await';
-import Section2018 from './AboutUs/Section2018';
-import Section2022 from './AboutUs/Section2022';
-import Section2023 from './AboutUs/Section2023';
-import Section2024 from './AboutUs/Section2024';
+import SectionA from './AboutUs/SectionA';
+import SectionB from './AboutUs/SectionB';
+import SectionC from './AboutUs/SectionC';
+import SectionD from './AboutUs/SectionD';
 
 function AboutUs() {
     return (
@@ -32,10 +32,10 @@ function AboutUs() {
                 <Navbar />
             </header>
 
-            <Section2018/>
-            <Section2022/>
-            <Section2023/>
-            <Section2024/>
+            <SectionA/>
+            <SectionB/>
+            <SectionC/>
+            <SectionD/>
 
             <footer>
                 <Footer/>

@@ -4,8 +4,8 @@ import Link from "next/link";
 function Await() {
     return (
         <>
-            <div className="flex flex-col bg-gray-500 items-center justify-center p-4 px-4 py-20">
-                <Link href="https://amazonasfc.vercel.app"><Image
+            <div className="flex flex-col bg-gray-500 items-center justify-center text-center p-4 px-4 py-20">
+                <Link href="/"><Image
                     width={500}
                     height={500}
                     alt="icon"
