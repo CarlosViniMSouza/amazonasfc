@@ -1,9 +1,9 @@
 import '../app/globals.css';
 
-import Navbar from "@/components/Navbar";
 import Head from "next/head";
+import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import Await from '@/components/Await';
+
 import SectionA from './AboutUs/SectionA';
 import SectionB from './AboutUs/SectionB';
 import SectionC from './AboutUs/SectionC';

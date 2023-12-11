@@ -1,9 +1,13 @@
 import '../app/globals.css';
 
-import Navbar from "@/components/Navbar";
 import Head from "next/head";
+import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import Await from '@/components/Await';
+
+import SectionA from './Achievements/SectionA';
+import SectionB from './Achievements/SectionB';
+import SectionC from './Achievements/SectionC';
+import SectionD from './Achievements/SectionD';
 
 function Achievements() {
     return (
@@ -28,13 +32,10 @@ function Achievements() {
                 <Navbar />
             </header>
 
-            <div className="border-solid border-black border-2 mx-auto w-[50%] rounded bg-white mt-3 mb-3">
-                <p className="py-2 text-center text-lg text-black ">
-                    <strong>Conquistas</strong>
-                </p>
-            </div>
-
-            <Await/>
+            <SectionA />
+            <SectionB />
+            <SectionC />
+            <SectionD />
 
             <footer>
                 <Footer/>

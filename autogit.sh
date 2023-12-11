@@ -1,5 +1,5 @@
 git add -A
-git commit -m "done: Builded | quotation marks replaced by &apos"
+git commit -m "done: Achievements content"
 git push -u origin main
 git status
 
