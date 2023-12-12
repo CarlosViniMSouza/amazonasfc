@@ -1,5 +1,5 @@
 git add -A
-git commit -m "done: Achievements content"
+git commit -m "alt: Achievements | done: Schedule"
 git push -u origin main
 git status
 

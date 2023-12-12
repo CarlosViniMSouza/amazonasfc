@@ -1,9 +1,12 @@
 import '../app/globals.css';
 
-import Navbar from "@/components/Navbar";
 import Head from "next/head";
+import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import Await from '@/components/Await';
+
+import BrazChamp from './Schedule/BrazChamp';
+import AmazChamp from './Schedule/AmazChamp';
+import BrazCup from './Schedule/BrazCup';
 
 function Schedule() {
     return (
@@ -28,13 +31,9 @@ function Schedule() {
                 <Navbar />
             </header>
 
-            <div className="border-solid border-black border-2 mx-auto w-[50%] rounded bg-white mt-3 mb-3">
-                <p className="py-2 text-center text-lg text-black ">
-                    <strong>Agenda</strong>
-                </p>
-            </div>
-
-            <Await/>
+            <AmazChamp/>
+            <BrazCup/>
+            <BrazChamp/>
 
             <footer>
                 <Footer/>

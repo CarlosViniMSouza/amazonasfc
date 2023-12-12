@@ -42,7 +42,7 @@ function Footer() {
                 </div>
 
                 <div className="flex-grow py-4 justify-start">
-                    <h2 className="py-2 text-lg"><strong>AmazonasFC</strong></h2>
+                    <h2 className="py-2 text-lg"><strong>Amazonas FC</strong></h2>
 
                     <p><Link href="#">TV Onça</Link></p>
                     <p><Link href="#">Loja</Link></p>
